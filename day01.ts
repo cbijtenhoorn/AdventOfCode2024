@@ -14,6 +14,7 @@ const differences = leftList.map((leftValue, index) =>
 );
 
 const totalDifference = differences.reduce((sum, value) => sum + value, 0);
+console.log(`Part one: ${totalDifference}`);
 
 //PART TWO
 const scores = leftList.map((value) => {
@@ -22,4 +23,4 @@ const scores = leftList.map((value) => {
 });
 
 const similarityScore = scores.reduce((sum, value) => sum + value, 0);
-console.log(similarityScore);
+console.log(`Part two: ${similarityScore}`);
