@@ -1,5 +1,5 @@
 import { readFileSync } from "fs";
-const input = readFileSync("./day01input", "utf-8").split("\n");
+const input = readFileSync("./day01input.txt", "utf-8").split("\n");
 
 //PART ONE
 const leftList = input
